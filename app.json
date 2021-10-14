@@ -35,6 +35,7 @@
   "style": "v2",
   "sitemapLocation": "sitemap.json",
   "usingComponents": {
-    "my-test1":"/components/test/test"
+    "my-test1":"/components/test/test",
+    "my-test2":"/components/test2/test2"
   }
 }
