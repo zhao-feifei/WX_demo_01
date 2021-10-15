@@ -37,5 +37,28 @@ Component({
                 sum:new1+new2
             })
         }
-    }
+    },
+    lifetimes:{
+        attached:function(){
+            console.log('attached');
+        },
+        detached: function() {
+            // 在组件实例被从页面节点树移除时执行
+            console.log('detached');
+          },
+    },
+    pageLifetimes: {
+        show: function() {
+          // 页面被展示
+          console.log('show');
+        },
+        hide: function() {
+          // 页面被隐藏
+          console.log('hide');
+        },
+        resize: function(size) {
+          // 页面尺寸变化
+          console.log('resize');
+        }
+      }
 })
