@@ -1,5 +1,6 @@
 <!--components/test4/test4.wxml-->
 <view>
     <view>这是组件内部</view>
-    <slot></slot>
+    <slot name="before"></slot>
+    <slot name="after"></slot>
 </view>
