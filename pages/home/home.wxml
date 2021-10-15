@@ -1,2 +1,5 @@
 <!-- <my-test1 max="9"></my-test1> -->
-<my-test2></my-test2>
+<!-- <my-test2></my-test2> -->
+<my-test4>
+  <view>这是插槽中的内容</view>
+</my-test4>
