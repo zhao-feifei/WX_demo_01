@@ -1,0 +1,24 @@
+{
+  "name": "demo_01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhao-feifei/WX_demo_01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhao-feifei/WX_demo_01/issues"
+  },
+  "homepage": "https://github.com/zhao-feifei/WX_demo_01#readme",
+  "dependencies": {
+    "@vant/weapp": "^1.3.3",
+    "miniprogram-api-promise": "^1.0.4"
+  }
+}

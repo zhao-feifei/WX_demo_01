@@ -2,3 +2,4 @@
 <!-- <text>components/test5/test5.wxml</text> -->
 <view>子组件中count的值是：{{count}}</view>
 <button bindtap="addCount">+1</button>
+<view>用户名是:{{username}}</view>
