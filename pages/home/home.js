@@ -8,12 +8,11 @@ Page({
     count: 0
   },
 
-  syncCount(e) {
-    // console.log('syncCount')
-    // console.log(e)
-    // console.log(e.detail.value)
+  syncCount(e){
+    console.log("syncCount");
+    console.log(e.detail.value);
     this.setData({
-      count: e.detail.value
+      count:e.detail.value
     })
   },
 
