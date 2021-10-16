@@ -16,13 +16,12 @@ Page({
     })
   },
 
-  getChild() {
-    const child = this.selectComponent('#cA')
-    console.log(child)
-    // child.setData({
-    //   count: child.properties.count + 1
-    // })
-    child.addCount()
+  getChild(){
+      let child=this.selectComponent('#cA')
+      // console.log(child);
+      child.setData({
+        count:child.properties.count+1
+      })
   },
 
   /**
