@@ -23,6 +23,16 @@ Page({
         count:child.properties.count+1
       })
   },
+ async getInfo(){
+   const res=await wx.p.request({
+      url: 'https://www.escook.cn/api/get',
+      data:{
+        name:'zs',
+        age:20
+      }
+    })
+    console.log(res);
+  },
 
   /**
    * 生命周期函数--监听页面加载

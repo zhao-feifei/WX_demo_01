@@ -1,3 +1,6 @@
+import {createStoreBindings} from 'mobx-miniprogram-bindings'
+
+import {store} from '../../store/store'
 // pages/message/message.js
 Page({
 
@@ -12,7 +15,11 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+  this.storeBindings=  createStoreBindings(this,{
+      store,
+      fields:['numa','numb'],
+      actons:['updateNuma','updateNumb']
+    })
   },
 
   /**
@@ -40,7 +47,7 @@ Page({
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-
+    this.storeBindings.detoryStoreBindings()
   },
 
   /**

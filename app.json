@@ -11,6 +11,7 @@
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
+    "custom": true,
     "list": [
       {
         "pagePath": "pages/home/home",
@@ -39,6 +40,8 @@
     "my-test2":"/components/test2/test2",
     "my-test4":"/components/test4/test4",
     "my-test5":"/components/test5/test5",
-    "van-button": "@vant/weapp/button/index"
+    "van-button": "@vant/weapp/button/index",
+    "van-tabbar": "@vant/weapp/tabbar/index",
+  "van-tabbar-item": "@vant/weapp/tabbar-item/index"
   }
 }

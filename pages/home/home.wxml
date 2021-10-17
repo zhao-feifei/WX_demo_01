@@ -9,4 +9,4 @@
 <view>父组件中count的值是：{{count}}</view>
 <button bindtap="getChild"></button> -->
 
-<van-button type="primary">按钮</van-button>
+<van-button type="primary" bindtap="getInfo">按钮</van-button>
